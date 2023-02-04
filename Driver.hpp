@@ -309,23 +309,6 @@ public:
 		return 0;
 	}
 
-	template <typename T>
-	void ReadCamera(T& value, ULONG64 ReadAddress)
-	{
-
-		OperationData opData = {};
-		opData.Memory.Size = sizeof(T);
-		opData.Memory.Copy.Address = ReadAddress;
-		opData.Memory.Copy.Buffer = &value;
-		opData.Memory.Copy.ReadOperation = true;
-
-		if (!SharedMemory::SendRequest(CopyRequest, opData))
-		{
-			printf(("[!] Error reading memory\n"));
-		}
-
-	}
-
 	bool readEx(ULONG64 read_address, ULONG64 target_address, ULONG64 size)
 	{
 		OperationData Data{};
@@ -339,7 +322,6 @@ public:
 
 		return true;
 	}
-
 
 	template<typename t> t
 		readChain(uintptr_t address, std::vector<uint64_t> chain)
