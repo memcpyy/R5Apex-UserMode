@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{9dd1de55-8c48-4d47-8c2c-50ac216f774c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{7296e2d5-c289-45c6-b388-f0565ae19d9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Classes">
+      <UniqueIdentifier>{84da7db9-3011-44a7-a7d4-bfcb7d3a7d20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\KdMapper">
+      <UniqueIdentifier>{32796389-28c1-4744-9998-98414d5b9c83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityLoop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kdmapper.cpp">
+      <Filter>Libraries\KdMapper</Filter>
+    </ClCompile>
+    <ClCompile Include="intel_driver.cpp">
+      <Filter>Libraries\KdMapper</Filter>
+    </ClCompile>
+    <ClCompile Include="portable_executable.cpp">
+      <Filter>Libraries\KdMapper</Filter>
+    </ClCompile>
+    <ClCompile Include="service.cpp">
+      <Filter>Libraries\KdMapper</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Libraries\KdMapper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Includes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Players.hpp">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="driver_image.hpp">
+      <Filter>Libraries\KdMapper</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.hpp">
+      <Filter>Libraries\KdMapper</Filter>
+    </ClInclude>
+    <ClInclude Include="service.hpp">
+      <Filter>Libraries\KdMapper</Filter>
+    </ClInclude>
+    <ClInclude Include="portable_executable.hpp">
+      <Filter>Libraries\KdMapper</Filter>
+    </ClInclude>
+    <ClInclude Include="nt.hpp">
+      <Filter>Libraries\KdMapper</Filter>
+    </ClInclude>
+    <ClInclude Include="kdmapper.hpp">
+      <Filter>Libraries\KdMapper</Filter>
+    </ClInclude>
+    <ClInclude Include="intel_driver_resource.hpp">
+      <Filter>Libraries\KdMapper</Filter>
+    </ClInclude>
+    <ClInclude Include="intel_driver.hpp">
+      <Filter>Libraries\KdMapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalPlayer.hpp">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
