@@ -1,4 +1,5 @@
-# R5Apex-Usermode External  Made by: DISCORD KIZZY#2684
+# R5Apex-Usermode External Made by ME 
+if you have any question DISCORD: KIZZY#2684
 IF THIS DOES GOOD ILL PUBLISH THE SHARED MEMORY SOURCE ASWELL
 
 !THIS IS FOR EDUCATIONAL USE ONLY!
