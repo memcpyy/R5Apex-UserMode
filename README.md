@@ -1,14 +1,13 @@
-# R5Apex-Usermode
-
+# R5Apex-Usermode External  Made by: DISCORD KIZZY#2684
 IF THIS DOES GOOD ILL PUBLISH THE SHARED MEMORY SOURCE ASWELL
-
 
 !THIS IS FOR EDUCATIONAL USE ONLY!
 
-<Notes>
+#Notes
 You will need to map your own driver and if you want to use 
 my DriverInit() you will have to use ur own kdMapper
-<FEATURES>
+
+#FEATURES
 Shared Memory Driver Communication
 Basic Reading and writing with shared Memory
 Good Clean Code
